@@ -16,7 +16,12 @@ h2 {
 	color:Navy;
 	font-size: 2em;
 }
+nav.NavBar{
+	text-align: center;
+	
+}
 ul.NavBar {
+	display: inline-block;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -36,10 +41,7 @@ li a.NavBar {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a.NavBar:hover {
   background-color: #111;
 }
-.active {
-  background-color: #4CAF50;
-}
+
