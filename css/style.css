@@ -5,6 +5,7 @@ h1 {
 	font-family: 'Abril Fatface', serif;
   color: white;
 	font-size: 3em;
+	text-align: center;
 }
 p {
 	font-family: 'Roboto Slab', serif;
@@ -16,6 +17,7 @@ h2 {
 	color:Navy;
 	font-size: 2em;
 }
+
 nav.NavBar{
 	text-align: center;
 	
@@ -44,4 +46,10 @@ li a.NavBar {
 li a.NavBar:hover {
   background-color: #111;
 }
+h1.groove {border-style: groove;}
+h1.solid {border-style: solid;}
+h1.dotted {border-style: dotted;}
+h2.inset {border-style: inset;}
+h2.outset {border-style: outset;}
+h2.dashed {border-style: dashed;}
 
