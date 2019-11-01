@@ -4,7 +4,7 @@ body.index {
 .animal {
   background-color: rgb(0,0,0)
 }
-.hobbies{
+.hobbies{ 
   background-color: rgb(0,0,128)
 }
 h1 {
@@ -66,7 +66,7 @@ nav#NavBar ul li a{
   text-decoration: none;
 }
 
-nav#NavBarul li a:hover {
+nav#NavBar ul li a:hover {
   background-color: #111;
 }
 h1.groove {border-style: groove;}
