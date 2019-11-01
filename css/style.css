@@ -25,12 +25,12 @@ p {
   color: white;
 	font-size: 100%;
 }
-p.default{
+.default{
 		font-family:'Times New Roman', serif;
 		color: white;
 		font-size:100%;
 }
-p.default2{
+.default2{
 		font-family:'Arial', serif;
 		color: white;
 		font-size:100%;
@@ -41,11 +41,11 @@ h2 {
 	font-size: 2em;
 }
 
-nav#NavBar{
+#NavBar{
 	text-align: center;
 	
 }
-nav#NavBar ul{
+#NavBar ul{
 	display: inline-block;
   list-style-type: none;
   margin: 0;
@@ -54,12 +54,12 @@ nav#NavBar ul{
   background-color: #333;
 }
 
-nav#NavBar ul li{
+#NavBar ul li{
   float: left;
   position: relative;
 }
 
-nav#NavBar ul li a{
+#NavBar ul li a{
   display: block;
   color: white;
   text-align: center;
@@ -67,16 +67,16 @@ nav#NavBar ul li a{
   text-decoration: none;
 }
 
-nav#NavBar ul li a:hover {
+#NavBar ul li a:hover {
   background-color: #111;
 }
-h1.groove {border-style: groove;}
-h1.solid {border-style: solid;}
-h1.dotted {border-style: dotted;}
-h2.inset {border-style: inset;}
-h2.outset {border-style: outset;}
-h2.dashed {border-style: dashed;}
-img.llamas {
+.groove {border-style: groove;}
+.solid {border-style: solid;}
+.dotted {border-style: dotted;}
+.inset {border-style: inset;}
+.outset {border-style: outset;}
+.dashed {border-style: dashed;}
+.llamas {
   margin: 0px 0px 0px 750px;
   margin-left: auto;
   margin-right: auto;
