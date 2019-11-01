@@ -34,11 +34,11 @@ h2 {
 	font-size: 2em;
 }
 
-nav.NavBar{
+nav#NavBar{
 	text-align: center;
 	
 }
-ul.NavBar {
+nav#NavBar ul{
 	display: inline-block;
   list-style-type: none;
   margin: 0;
@@ -47,11 +47,11 @@ ul.NavBar {
   background-color: #333;
 }
 
-li.NavBar {
+nav#NavBar ul li{
   float: left;
 }
 
-li a.NavBar {
+nav#NavBar ul li a{
   display: block;
   color: white;
   text-align: center;
@@ -59,7 +59,7 @@ li a.NavBar {
   text-decoration: none;
 }
 
-li a.NavBar:hover {
+nav#NavBarul li a:hover {
   background-color: #111;
 }
 h1.groove {border-style: groove;}
