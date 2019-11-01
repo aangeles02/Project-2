@@ -13,6 +13,12 @@ h1 {
 	font-size: 3em;
 	text-align: center;
 }
+h2{
+  	font-family: 'Abril Fatface', serif;
+  color: white;
+	font-size: 3em;
+	text-align: center;
+}
 p {
 	font-family: 'Roboto Slab', serif;
   color: white;
@@ -49,13 +55,14 @@ nav#NavBar ul{
 
 nav#NavBar ul li{
   float: left;
+  position: relative;
 }
 
 nav#NavBar ul li a{
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1em 2em;
   text-decoration: none;
 }
 
